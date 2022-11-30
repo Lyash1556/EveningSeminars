@@ -1,0 +1,15 @@
+E:\GB\EveningSemenar\EvenningSemenar001\bin\Debug\net6.0\EvenningSemenar001.exe
+E:\GB\EveningSemenar\EvenningSemenar001\bin\Debug\net6.0\EvenningSemenar001.deps.json
+E:\GB\EveningSemenar\EvenningSemenar001\bin\Debug\net6.0\EvenningSemenar001.runtimeconfig.json
+E:\GB\EveningSemenar\EvenningSemenar001\bin\Debug\net6.0\EvenningSemenar001.dll
+E:\GB\EveningSemenar\EvenningSemenar001\bin\Debug\net6.0\EvenningSemenar001.pdb
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.csproj.AssemblyReference.cache
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.GeneratedMSBuildEditorConfig.editorconfig
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.AssemblyInfoInputs.cache
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.AssemblyInfo.cs
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.csproj.CoreCompileInputs.cache
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.dll
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\refint\EvenningSemenar001.dll
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.pdb
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\EvenningSemenar001.genruntimeconfig.cache
+E:\GB\EveningSemenar\EvenningSemenar001\obj\Debug\net6.0\ref\EvenningSemenar001.dll
