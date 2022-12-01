@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gigabyte\\.nuget\\packages\\": {}
+    "C:\\Users\\UserZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GB\\EveningSemenar\\EvenningSemenar001\\EvenningSemenar001.csproj",
+      "projectUniqueName": "C:\\Other\\Csharp\\EveningSeminars\\EvenningSemenar001\\EvenningSemenar001.csproj",
       "projectName": "EvenningSemenar001",
-      "projectPath": "E:\\GB\\EveningSemenar\\EvenningSemenar001\\EvenningSemenar001.csproj",
-      "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
-      "outputPath": "E:\\GB\\EveningSemenar\\EvenningSemenar001\\obj\\",
+      "projectPath": "C:\\Other\\Csharp\\EveningSeminars\\EvenningSemenar001\\EvenningSemenar001.csproj",
+      "packagesPath": "C:\\Users\\UserZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Other\\Csharp\\EveningSeminars\\EvenningSemenar001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gigabyte\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\UserZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
