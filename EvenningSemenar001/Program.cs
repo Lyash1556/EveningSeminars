@@ -21,6 +21,7 @@ else
 
 //Задача 2. Программа на вход принимает одно число N, а на выходе показывает все целые числа от -N до N.
 
+/*
 Console.Write("input an integer number: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
@@ -31,3 +32,27 @@ while(current <= n)
     Console.Write(current + " ");
     current++;
 }
+*/
+
+//Задача 3. Программа 
+
+//МЕТОДЫ и Функции
+
+//Задача 1. Берет случайное трех значное число и вырезает у него вторую цифру
+
+int CutNumber(int num)
+{
+    int sot = num / 100;
+    int ed = num % 10;
+
+    int result = sot * 10 + ed;
+    return result;
+}
+
+int randNum =  new Random().Next(100, 1000);
+
+int newNum = CutNumber(randNum);
+
+
+
+Console.WriteLine($"Случайное счисло {randNum}, итоговое число {newNum}");
