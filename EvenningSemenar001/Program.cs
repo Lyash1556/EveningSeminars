@@ -140,7 +140,7 @@ Console.WriteLine(result);
 // задача принимает на вход число и проверяет кратно ли оно одновременно a и b.
 //
 
-
+/*
 bool Check(int num, int num1, int num2)
 {
     if(num1 % num == 0 && num2 % num == 0) return true;
@@ -157,3 +157,28 @@ int b = Convert.ToInt32(Console.ReadLine());
 bool result = Check(n, a, b);
 
 Console.WriteLine(result);
+*/
+
+
+// принимает на вход координаты точки ненулевые и выдает номер четверти плоскости точки
+
+
+int FindQuandrant(double x, double y)
+{
+    if(x > 0 && y > 0) return 1;
+    if(x < 0 && y > 0) return 2;
+    if(x < 0 && y < 0) return 3;
+    if(x > 0 && y < 0) return 4;
+    return 0;
+}
+
+Console.Write("input the first coordinate: x = ");
+double xA = Convert.ToDouble(Console.ReadLine());
+Console.Write("input the first coordinate: y = ");
+double yA = Convert.ToDouble(Console.ReadLine());
+
+int result = FindQuandrant(xA, yA);
+Console.WriteLine(result);
+
+
+
