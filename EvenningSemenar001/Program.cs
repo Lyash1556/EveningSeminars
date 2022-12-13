@@ -162,7 +162,7 @@ Console.WriteLine(result);
 
 // принимает на вход координаты точки ненулевые и выдает номер четверти плоскости точки
 
-
+/*
 int FindQuandrant(double x, double y)
 {
     if(x > 0 && y > 0) return 1;
@@ -179,6 +179,58 @@ double yA = Convert.ToDouble(Console.ReadLine());
 
 int result = FindQuandrant(xA, yA);
 Console.WriteLine(result);
+*/
 
 
+// по заданному номеру четверти показывает диапазон возможных координат в этой четверти
+/*
+void Quadrant(int q)
+{
+    if(q == 1) Console.Write("Координаты x и y больше нуля");
+    if(q == 2) Console.Write("Координаты x меньше нуля, y больше нуля");
+    if(q == 3) Console.Write("Координаты x и y меньше нуля");
+    if(q == 4) Console.Write("Координаты x больше нуля и y меньше нуля");
+}
 
+Console.Write("Введите номер квадранта: ");
+int n = Convert.ToInt32(Console.ReadLine());
+
+Quadrant(n);
+*/
+
+// принимает на вход координаты 2 точек и находит расстояние между ними
+/*
+double Gipotenuza(double xA, double yA, double xB, double yB)
+{
+    double a = xB - xA;
+    double b = yB - yA;
+    //double c = Math.Sqrt(Math.Pow(a,2) + Math.Pow(b,2));
+    double c = Math.Round(Math.Sqrt(Math.Pow(a,2) + Math.Pow(b,2)), 3);
+        
+    return c;
+}
+
+double result = Gipotenuza(2.3, 3.4, 6.6, 7.5);
+
+Console.Write("гипотенуза равна: " + result);
+*/
+
+// принимает на вход число n и выдает ряд квадратов чисел от 1 до n
+/*
+void FindQuad(int n)
+{
+    int result = 1;
+    
+    while(result <= n)
+    {
+        Console.Write(Math.Pow(result, 2) + ", ");
+        result++;
+    }
+
+}
+
+Console.WriteLine("введите число n");
+int x = Convert.ToInt32(Console.ReadLine());
+
+FindQuad(x);
+*/         
