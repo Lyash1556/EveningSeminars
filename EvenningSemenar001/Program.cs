@@ -1,4 +1,36 @@
-﻿// семинар 1
+﻿// семинар 4 генерация и отображение массива случайных чисел
+/*
+int[] CreateRandomArray(int size, int minValue, int maxValue)
+{
+    int[] array = new int[size];
+    
+    for (int i = 0; i < size; i++)
+        array[i] = new Random().Next(minValue, maxValue + 1);
+    
+    return array;
+}
+
+void ShowArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine($"{i + 1} element is {array[i]}");
+    }
+}
+
+Console.Write("Input namber elemets: ");
+int length = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a min pussible value: ");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.Write("Input a max pussible value: ");
+int max = Convert.ToInt32(Console.ReadLine());
+
+int[] myArray = CreateRandomArray(length, min, max);
+ShowArray(myArray);
+*/
+
+
+// семинар 1
 
 
 //
