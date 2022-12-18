@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Other\\Csharp\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj": {}
+    "E:\\GB\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj": {}
   },
   "projects": {
-    "C:\\Other\\Csharp\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj": {
+    "E:\\GB\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Other\\Csharp\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj",
+        "projectUniqueName": "E:\\GB\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj",
         "projectName": "Seminar_005_C#",
-        "projectPath": "C:\\Other\\Csharp\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj",
-        "packagesPath": "C:\\Users\\UserZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Other\\Csharp\\EveningSeminars\\Seminar_005_C#\\obj\\",
+        "projectPath": "E:\\GB\\EveningSeminars\\Seminar_005_C#\\Seminar_005_C#.csproj",
+        "packagesPath": "C:\\Users\\Gigabyte\\.nuget\\packages\\",
+        "outputPath": "E:\\GB\\EveningSeminars\\Seminar_005_C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UserZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Gigabyte\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
