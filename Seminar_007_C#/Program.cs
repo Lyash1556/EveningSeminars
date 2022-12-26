@@ -76,6 +76,7 @@ Show2dArray(myArray);
 
 
 // 222222222222   Задайте двумерный массив. Найдите элементы, у которых оба индекса чётные, и замените эти элементы на их квадраты.
+
 /*
 int[,] CreateRandom2dArray()
 {
@@ -111,14 +112,9 @@ void Show2dArray(int[,] array)
 
 void Correct2dArray(int[,] array)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            if(i % 2 == 0 && j % 2 == 0)
-            {
-                array[i,j] = Convert.ToInt32(Math.Pow(array[i,j], 2));
-            }
-        }
+    for (int i = 0; i < array.GetLength(0); i+=2)
+        for (int j = 0; j < array.GetLength(1); j+=2)
+            array[i,j] = Convert.ToInt32(Math.Pow(array[i,j], 2));
 }
 
 int [,] myArray = CreateRandom2dArray();
@@ -167,14 +163,8 @@ void Show2dArray(int[,] array)
 int FindSumAnyElements(int[,] array)
 {
     int sum = 0;
-    for (int i = 0; i < array.GetLength(0); i++)
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            if(i == j)
-            {
-                sum += array[i,j];
-            }
-        }
+    for (int i = 0; i < array.GetLength(0) && i < array.GetLength(1); i++)
+        sum += array[i,i];
     return sum;
 }
 
@@ -183,5 +173,4 @@ Show2dArray(myArray);
 
 int result = FindSumAnyElements(myArray);
 Console.WriteLine(result);
-
 
